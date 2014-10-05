@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.jumbotron {
+	background-image:url('../img/index.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 200px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.main {
+	height: 100%;
+}
+
+body,html {
+	height: 100%;
+}
+
+#footer {
+	margin-top: 3em;	
+	font-size: 12px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+@media (max-width: 768px) {
+	.maincontent {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+	

@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/kennep
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.wangpedersen.com
+  * I am kennep (https://keybase.io/kennep) on keybase.
+  * I have a public key with fingerprint 52D2 9F76 5505 D0A7 649D  0BAB 6A3D 6A7C 9FB8 2D04
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014582d1aaebdef4ab9222914ed17aa5be986d804fd7f1929388b080282d590f3f0a",
+            "fingerprint": "52d29f765505d0a7649d0bab6a3d6a7c9fb82d04",
+            "host": "keybase.io",
+            "key_id": "6a3d6a7c9fb82d04",
+            "kid": "01014582d1aaebdef4ab9222914ed17aa5be986d804fd7f1929388b080282d590f3f0a",
+            "uid": "3e22b2d95707a22488c559194465df19",
+            "username": "kennep"
+        },
+        "revoke": {
+            "sig_ids": [
+                "4d1dfd18bcb186ce77f9103ac6d0a7ec78785c5ccf805f1d2b571835f39d08d20f"
+            ]
+        },
+        "service": {
+            "hostname": "www.wangpedersen.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479375851,
+    "expire_in": 157680000,
+    "prev": "e55a15b55d32a06b40fe63dcf3888572eb229879237c365f5f466dc94481f05f",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMJ3AnicrVJtiFVFGL7bboXXTNfYJGKxRoNY1t2ZOWfOzLlRQnAl+hG0GC2lXubz
+7mG95xzvPXuvdneVTMp2s2R/1I8V+1CwDIlgBXFBTTYW1wItK1NUslRUwkw0lwqa
+c7F//Wz+DDM8z/M+7/O+k3OaM9mm+qnSK23L1k43Hf1iZiDTu6R+tQ5EpNaBXB30
+68alVytdSQr9gQI5ABFELmFYIc61UNq4XPgYYx+5WiHKORHaZ55i0DWKGuRj32FM
+QAaxJREfGsdADjqBCcKiLsflIEysLMEK+4Z6hECiIKee6ysouPC4ozxOpW+EpUPX
+EvuiSsqw5gSv6K4gsn/2UWjY+w/8/+x7oCHnaIwFVj6hkHKMXcYkIT7yXdcjyrJT
+YEWXQ17SDa9hqGMw1AnKuhr16zTVSlC0lisg9zJwFVJGISakQMyTmlLjI+hw6aVR
+aEkZZUQSKQ2DxCCFBaGIOcQ4NiSmMDRgpdW29aqBbIinGd2pXavVumo8LMZa6XJF
+h10yKll3cTlKIhmttoi+JIkrudRdsi5uULQo3BEriCBUdlKWUbX0IApBDlmkTIJU
+HbnUdyhhBHUCvTYOyroQpAhCPQbtSevoqpXUhHBEBCHKwRx6woVGe46SxobMCMVa
+2FEw6mOHSscjhhjX85S0eTJkbNMgbW9NGIGcZ23yopW0AYY8GShrMHT40IqWTFM2
+c8/dd6UbnMnOmvfvXn86eO/fC2/fOvzkx/VvtqxvpaMjN1qu/Tr7ofcmfurZvmC4
+uWfw/PEd+y4O37fwtWdHa7sXTf1w8kLb3rHvu4+1bdv8WcfS8ddv977/80enb00+
+9sKHMx3Lq2bx1Ly/nt7ePnBzqHXk2qwHei59kJ04/9Zl0HtgcM5itVHOXCw+h8bk
+L/K3E6Mb39g5Pv/HLy9fP5482rVJnj261X3+q8npC7tWzl3z1KJdY0ce2dv95rZ4
+3x98+f4tB1vnLuuYPdFdu/LJq1eaDz2xec+LzoI/IT+Z3/rwsfyOb8fFd29vGNyz
+m3zenr35zJH597ccPDG1vi/fnj/30ib36qrTZ/o3vFPKLykNv7t0OizFv4+0XH/8
+0oNf3/gHtb5jHw==
+=0HE1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kennep
+
+==================================================================

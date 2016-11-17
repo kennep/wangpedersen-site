@@ -14,9 +14,4 @@ node {
         builtImage.push()
     }
   }
-
-  stage 'Deploy'
-  if (env.BRANCH_NAME == 'master') {
-    build job: '/restart-service', parameters: [string(name: 'service', value: serviceName)]
-  }
 }

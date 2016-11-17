@@ -1,5 +1,4 @@
-FROM registry.wangpedersen.com/nginx
+FROM nginx
 
-USER root
 COPY . /var/www/html
-USER nginx
+

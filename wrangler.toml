@@ -1,7 +1,7 @@
 name = "wangpedersen-site"
 type = 'webpack'
 account_id = ''
-route = 'www.wangpedersen.com'
+route = 'www.wangpedersen.com/*'
 zone_id = ''
 usage_model = ''
 workers_dev = true

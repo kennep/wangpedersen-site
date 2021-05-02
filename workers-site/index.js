@@ -49,10 +49,10 @@ async function handleEvent(event) {
     response.headers.set("X-XSS-Protection", "1; mode=block");
     response.headers.set("X-Content-Type-Options", "nosniff");
     response.headers.set("X-Frame-Options", "DENY");
-    response.headers.set("Referrer-Policy", "unsafe-url");
+    response.headers.set("Referrer-Policy", "no-referrer");
     response.headers.set("Feature-Policy", "none");
     response.headers.set("X-Permitted-Cross-Domain-Policies", "none");
-    response.headers.set("Content-Security-Policy", "nodefault-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'ne");
+    response.headers.set("Content-Security-Policy", "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'ne");
 
     return response;
 

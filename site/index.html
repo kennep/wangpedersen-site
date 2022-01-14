@@ -1,103 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Kenneth Wang Pedersen <kenneth@wangpedersen.com>">
 
-<title>Wang Pedersen</title>
+	<title>Wang Pedersen</title>
 
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- min CSS framework -->
+	<link href="css/min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/index.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="css/index.css" rel="stylesheet">
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-static-top">
+	<nav class="nav">
 		<div class="container">
-			<button type="button" class="navbar-toggle" data-toggle="collapse"
-				data-target=".nav-collapse">
-				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-					class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Wang Pedersen</a>
-			<div class="nav-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Heim</a></li>
-					<li><a href="https://mail.wangpedersen.com/">Epost</a></li>
-					<li><a href="https://nextcloud.wangpedersen.com/">NextCloud</a></li>
-					<li><a href="https://account.wangpedersen.com/">Konto</a></li>
-					<li><a href="https://status.wangpedersen.com/">Status</a></li>
-				</ul>
-			</div>
+			<a class="pagename current" href="#">Wang Pedersen</a>
+			<a href="https://mail.wangpedersen.com/">Epost</a>
+			<a href="https://nextcloud.wangpedersen.com/">NextCloud</a>
+			<a href="https://account.wangpedersen.com/">Konto</a>
+			<a href="https://status.wangpedersen.com/">Status</a>
 		</div>
-	</div>
+	</nav>
 
 	<div class="container">
-		<div class="jumbotron">
+		<div class="hero">
 			<h1>Velkommen til oss!</h1>
 		</div>
 
-		<div class="maincontent">
+		<div class="row">
 			<h2>Her finn du dette:</h2>
+		</div>
 
-			<ul class="media-list">
-				<li class="media"><a class="pull-left thumbnail"
-					href="https://wedding.wangpedersen.com"> <img
+		<div class="row">
+			<div class="col c4">
+				<a class="thumbnail"
+					href="https://wedding.wangpedersen.com"><img
 						class="media-object" src="img/thumb_cp.jpg">
 				</a>
-					<div class="media-body">
-						<h4 class="media-heading">
-							<a href="https://wedding.wangpedersen.com">Bryllaupet
-								04.06.2011</a>
-						</h4>
-						Ei side med bilete og informasjon om bryllaupet vårt.
-					</div></li>
-			</ul>
-			<ul class="media-list">
-				<li class="media"><a class="pull-left thumbnail"
-					href="https://comics.wangpedersen.com"> <img
-						class="media-object" src="img/thumb_comics.jpg">
+				<div class="media-body">
+					<h3>
+						<a href="https://wedding.wangpedersen.com">Bryllaupet
+							04.06.2011</a>
+					</h3>
+					Ei side med bilete og informasjon om bryllaupet vårt.
+				</div>
+			</div>
+			<div class="col c4">
+				<a class="thumbnail"
+					href="https://comics.wangpedersen.com"><img
+						class="thumbnail-image" src="img/thumb_comics.jpg">
 				</a>
-					<div class="media-body">
-						<h4 class="media-heading">
-							<a href="https://comics.wangpedersen.com">Teikneserier</a>
-						</h4>
-						Ei samling med høgverdige teikneserier! Krever innlogging.
-					</div></li>
-			</ul>
+				<div class="media-body">
+					<h3>
+						<a href="https://comics.wangpedersen.com">Teikneserier</a>
+					</h3>
+					Ei samling med høgverdige teikneserier! Krever innlogging.
+				</div>
+			</div>
 
-			<ul class="media-list">
-				<li class="media"><a class="pull-left thumbnail"
+			<div class="col c4">
+				<a class="thumbnail"
 					href="https://github.com/kennep"> <img
-						class="media-object" src="img/gh-logo.png">
+						class="thumbnail-image" src="img/gh-logo.png">
 				</a>
-					<div class="media-body">
-						<h4 class="media-heading">
-							<a href="https://github.com/kennep">Kenneth på GitHub</a>
-						</h4>
-						Kode.
-					</div></li>
-			</ul>
-
+				<div class="media-body">
+					<h3>
+						<a href="https://github.com/kennep">Kenneth på GitHub</a>
+					</h3>
+					Kode.
+				</div>
+			</div>
 		</div>
 
 
-		<div id="footer">
-			<div class="container">
-				<p class="text-muted credit">
-					Kontakt oss på: <a href="mailto:webmaster@wangpedersen.com">webmaster@wangpedersen.com</a>.
-				</p>
-				<p class="text-muted">
-					Public keys: <a href="pubkeys/pgp.txt">PGP</a> <a href="pubkeys/ssh.txt">SSH</a> <a href="https://keybase.io/kennep">Keybase</a>
-				</p>
-				<p class="text-muted">
-					Hosted by CloudFlare Workers					
-				</p>
+		<div class="row" id="footer">
+			<div>
+				Kontakt oss på: <a href="mailto:webmaster@wangpedersen.com">webmaster@wangpedersen.com</a>.
+			</div>
+			<div>
+				Public keys: <a href="pubkeys/pgp.txt">PGP</a> <a href="pubkeys/ssh.txt">SSH</a> <a href="https://keybase.io/kennep">Keybase</a>
+			</div>
+			<div>
+				Built with <a href="https://mincss.com/">Min</a>, </a>Hosted by <a href="https://workers.cloudflare.com/">CloudFlare Workers</a>			
 			</div>
 		</div>
 	</div>

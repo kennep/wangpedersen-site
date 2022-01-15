@@ -78,6 +78,16 @@ a:hover, a:focus {
 		height: auto;
 	}
 
+	.nav a {
+		display: inline;
+		padding-right: 1em;
+	}
+
+	.nav a.current {
+		display: block;
+		width: 100%;
+	}
+
 	.nav div:before {
 		content: none;
 	}

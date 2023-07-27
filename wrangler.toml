@@ -1,9 +1,7 @@
+compatibility_date = "2023-07-24"
 name = "wangpedersen-site"
-type = 'webpack'
-account_id = ''
 routes = ['wangpedersen.com/*', 'www.wangpedersen.com/*']
-zone_id = ''
-usage_model = ''
 workers_dev = true
-target_type = "webpack"
-site = {bucket = "site",entry-point = "workers-site"}
+site = {bucket = "site"}
+main = "workers-site/index.js"
+

@@ -91,4 +91,8 @@ a:hover, a:focus {
 	.nav div:before {
 		content: none;
 	}
+
+	.hero h1 {
+		font-size: 32pt;
+	}
 }

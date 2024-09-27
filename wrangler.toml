@@ -1,7 +1,0 @@
-compatibility_date = "2023-07-24"
-name = "wangpedersen-site"
-routes = ['wangpedersen.com/*', 'www.wangpedersen.com/*']
-workers_dev = true
-site = {bucket = "site"}
-main = "workers-site/index.js"
-
